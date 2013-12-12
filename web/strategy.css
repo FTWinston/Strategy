@@ -19,4 +19,10 @@ h1, p {
   background-color: #fff;
 }
 
+.center {
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+}
+
 

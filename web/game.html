@@ -8,7 +8,7 @@
     
     <!-- import the click-counter -->
     <link rel="import" href="clickcounter.html">
-    <script type="application/dart">export 'package:polymer/init.dart';</script>
+    <script type="application/dart" src="game.dart"></script>
     <script src="packages/browser/dart.js"></script>
   </head>
   <body>
@@ -17,6 +17,12 @@
     <p>Hopefully we have below a hexagonal grid, of sorts</p>
     
     <div id="sample_container_id">
+      <canvas id="canvas" width="500" height="500" class="center"></canvas>
+      
+      <form class="center">
+        <input id="width" type="range" max="20" value="6"/>
+        <input id="height" type="range" max="20" value="6"/>
+      </form>
       <click-counter count="5"></click-counter>
     </div>
 

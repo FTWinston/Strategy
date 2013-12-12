@@ -1,7 +1,7 @@
 name: Strategy
-description: A sample Polymer application
+description: A strategy game played on a hexaginal grid
 dependencies:
-    polymer: any
+  polymer: any
 transformers:
 - polymer:
     entry_points: web/strategy.html
